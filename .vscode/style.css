@@ -1,0 +1,12 @@
+p{
+    color:blueviolet;
+    text-align:center;
+    text-decoration:line-through;
+    text-transform:uppercase;
+    text-indent:50px;
+    letter-spacing:3px;
+    word-spacing:2px
+    line-height : 1.5;
+    text-shadow: 2px 2px 2px;
+
+}

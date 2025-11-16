@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
- <title>document</title>
+ <title>my website</title>
+ <!--Adding favicon-->
+ <link rel="icon" type="image/x-icon" href="favicon.ico">
+ <style>
+    input,select,textarea,button{
+    font-family:Arial,sans-serif;
+    font-size:14px;
+    padding:10px;
+    margin:5px 0;
+    border:1px solid #ccc;
+    border-radius:5px;/*rounded corners*/
+    width:100%;
+    box-sizing:border-box;/* prevent overflow*/
+}
+    input:focus,textarea:focus,select:focus{
+    border-color:#007BFF; /*blue border on focus*/
+    outline:none;  /*remove default outline*/    
+    }
+    button:hover{
+        background-color:#007BFF;
+        color:white;
+        cursor:pointer;
+    }
+
+    .box {
+        background-color: aliceblue;
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid blueviolet;
+    }
+ </style>
 </head>
 <body>
-<P>No matter how tough the journey gets,<br/> remember that every step forward, no matter how small,is progress.<br/> Challenges are not roadblocks—they are opportunities to grow<br/>
+<div class="box"><P>No matter how tough the journey gets,<br/> remember that every step forward, no matter how small,is progress.<br/> Challenges are not roadblocks—they are opportunities to grow<br/>
  stronger, wiser, and more resilient.<br/> Keep pushing, keep striving, and never underestimate the impact of your determination.<br/> 
 The future is shaped by what you do today, so rise with purpose and make every moment count!
 <hr size = "78" color = "pink">
@@ -20,7 +50,7 @@ The future is shaped by what you do today, so rise with purpose and make every m
 <p><s>this is my third class</s>fourth</p>
 <p></p>
 <h1>name</h1>
-<h2><center>himachal</center></h2>
+<h2><center>himachal</center></h2></div>
 <h3>age</h3>
 
 <div style="display: flex, align-self center">
@@ -32,5 +62,57 @@ he said, <q> Iam not okay</q>
 <blockquote>means position of parahgraph will be change<br/>and q means this represent  some phrases content</blockquote>
 <!--<h4> this is the fourth heading </h4>
 <h5>this is the fifth one</h5>--->
+   <ol type="a" start="2"> 
+        <li>home</li>
+        <li>game</li>
+        <li>khushi</li>
+    </ol>
+    <ul><li>playground</li>
+    <li>basketball</li>
+    <li>volluball</li>
+    </ul>
+    <dl>
+        <dt>python</dt>
+        <dd>it is a programming language</dd>
+
+    </dl>
+    <a href = "https://www.youtube.com/" target="blank">youtube</a>  
+    <a href="mailto:khushithakur2119@gmail.com">send Email</a>
+    <a href="tel:9317916462">call
+    <img src="https://artisticgifts.in/cdn/shop/files/51IBjIHdtlL_1080x.jpg?v=1743414430">
+    <img src="https://share.google/images/hgxwR7LlBXAyVQkTL" alt="google logo" width="150">
+    </a>
+    <audio controls>
+        <source src ="/home/k/Downloads/sample-12s.mp3"
+        type="audio/mp3">
+    </audio>
+    
+    <iframe
+    <iframe width="560" height="315" 
+src="https://www.youtube.com/embed/HcOc7P5BMi4"
+    frameborder="0" allowfullscreen>
+</iframe>
+<form action = "submit_form.php" method = "post">
+ name:<input type ="text" name="username"><br><br>
+ Email:<input type ="text"><br><br>
+ Password:<input type ="Password"><br><br>
+ <input type ="radio"name="gender"value="male">male<br><br>
+ <input type ="radio"name="gender"value="female">female<br><br>
+ <input type ="checkbox" name="subscribe">subscribe to newsletter<br>
+ <input type="submit"value="Register"><br><br>
+ <textarea name="message" row="4" cols="50":max length ="50">
+    hey,there
+ </textarea> 
+ <input type="reset"value="reset">reset<BR><BR>
+ <select name ="dropdown" size="multiple">
+    <option name="1">countries</option>
+     <option name="2">UK</option>
+     <option name="3">GERMANY</option>
+     <option name="4">UK</option>
+     <button>khushi</button>
+
+
+</form>
+
 </body>
 </html>
