@@ -168,11 +168,3 @@ match select:
     case _ :
         print("default case")
         
-
-
-
-
-
-
-
-    

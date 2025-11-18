@@ -67,6 +67,7 @@ while(i<=5){
 /*DO WHILE*/
 let j = 1;
 do{
-    document.write("Number: " +j);
+    document.write("Number: " +j+"<br>");
     j++;
 }while(j<=5);
+/*      */
